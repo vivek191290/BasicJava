@@ -1,0 +1,13 @@
+package com.java.basic;
+
+public class DemoForLoop {
+
+	public static void main(String[] args) {
+		System.out.println("Print the 1..100");
+		for(int num=1; num>=100; num++)
+		{
+			System.out.println("This is the 1...100 numbers : " +num);
+		}
+	}
+
+}
